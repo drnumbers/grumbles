@@ -1,0 +1,141 @@
+{
+	"monster": [
+		{
+			"name": "Bumbles",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": [
+				"T"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 12,
+				"formula": "1d4 + 10"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 9
+			},
+			"str": 4,
+			"dex": 15,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"save": {
+				"dex": "+2"
+			},
+			"skill": {
+				"stealth": "+2",
+				"perception": "+0"
+			},
+			"passive": 10,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If Bumbles makes a DEX save to take half damage, it takes 0 on a success and half on a failure[cite: 1940, 1941]."
+					]
+				},
+				{
+					"name": "Homunculus Nature",
+					"entries": [
+						"Shares Grumbles' initiative count but takes its turn immediately after[cite: 1945].",
+						"It only takes the Dodge action unless Grumbles uses a Bonus Action to command it[cite: 1946]."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Force Strike",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 9 m, one target. {@h}4 (1d4 + 2) force damage[cite: 1881]."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Channel Magic",
+					"entries": [
+						"When Grumbles casts a 'Touch' spell, Bumbles can deliver it if it is within 36 m (120 ft) of Grumbles."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ivy",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 5,
+				"formula": "1d4 + 3"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 12
+			},
+			"str": 2,
+			"dex": 18,
+			"con": 10,
+			"int": 4,
+			"wis": 12,
+			"cha": 6,
+			"save": {
+				"dex": "+4"
+			},
+			"skill": {
+				"stealth": "+4",
+				"acrobatics": "+4",
+				"perception": "+1"
+			},
+			"passive": 11,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Apex Reflexes",
+					"entries": [
+						"When Ivy succeeds on a DEX save to take half damage, she takes 0 instead. On a failure, she takes the full amount[cite: 2606, 2607]."
+					]
+				},
+				{
+					"name": "Bee Nature",
+					"entries": [
+						"Shares Nisha's initiative count but takes its turn immediately after[cite: 2604].",
+						"Takes the Dodge action unless Nisha uses a Bonus Action to command it[cite: 2605]."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Nature's Stinger",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 1.5 m, one target. {@h}5 (1d6 + 2) piercing damage[cite: 2608]."
+					]
+				},
+				{
+					"name": "Distract",
+					"entries": [
+						"Nisha uses a Bonus Action to have Ivy buzz in a creature's face. The next attack roll against that creature has Advantage."
+					]
+				}
+			]
+		}
+	]
+}

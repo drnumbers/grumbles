@@ -1,0 +1,42 @@
+{
+	"item": [
+		{
+			"name": "Podger Spanner",
+			"source": "GrumblesHB",
+			"type": "M",
+			"rarity": "unknown",
+			"weaponCategory": "simple",
+			"property": [
+				"AF",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"weight": 2,
+			"entries": [
+				"This indestructible tool-steel pry-bar serves as an Artificer spellcasting focus.",
+				"It is classified as an Alien Artifact."
+			],
+			"ability": {
+				"static": {
+					"dex": 2
+				}
+			},
+			"bonusWeaponAttack": "+4",
+			"bonusWeaponDamage": "+2"
+		}
+	],
+	"_meta": {
+		"sources": [
+			{
+				"json": "GrumblesHB",
+				"abbreviation": "GHB",
+				"full": "Grumbles Homebrew",
+				"authors": [
+					"Phil"
+				],
+				"version": "1.0.0"
+			}
+		]
+	}
+}

@@ -1,0 +1,179 @@
+{
+	"spell": [
+		{
+			"name": "Blue Punch",
+			"source": "GrumblesHB",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instantaneous"
+				}
+			],
+			"entries": [
+				"You make a melee spell attack. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage, and it can't take reactions until the start of its next turn."
+			],
+			"damageInflicted": [
+				"lightning"
+			]
+		},
+		{
+			"name": "Cursed Lapse",
+			"source": "GrumblesHB",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "meter",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instantaneous"
+				}
+			],
+			"entries": [
+				"Make a ranged spell attack. On a hit, the target takes 1d10 force damage. A Medium or smaller target is pulled 3 meters toward the point of impact.",
+				"At Higher Levels: The damage increases by 1d10 for each slot level above 1st."
+			],
+			"damageInflicted": [
+				"force"
+			]
+		},
+		{
+			"name": "Noxious Burp",
+			"source": "GrumblesHB",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "meter",
+					"amount": 2
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instantaneous"
+				}
+			],
+			"entries": [
+				"You release a 2-meter radius cloud of gas. Each creature in the area must succeed on a Constitution saving throw (DC 13) or take 1d4 poison damage."
+			],
+			"damageInflicted": [
+				"poison"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Healing Globs",
+			"source": "GrumblesHB",
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "meter",
+					"amount": 10
+				}
+			},
+			"components": {
+				"s": true,
+				"m": true
+			},
+			"duration": [
+				{
+					"type": "instantaneous"
+				}
+			],
+			"entries": [
+				"A creature of your choice within range heals 1d8 HP. If the target is at 0 hit points, they stabilize and wake with 1 hit point."
+			]
+		},
+		{
+			"name": "Grow Plants",
+			"source": "GrumblesHB",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "meter",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You target a 3-meter square. Any creature in the area must succeed on a Strength saving throw (DC 13) or be restrained by rapidly growing weeds. A creature can use its action to make a Strength check against your spell save DC to break free.",
+				"Utility: You can use this spell to bloom flowers, ripen fruit, or grow a 3-meter vine."
+			],
+			"savingThrow": [
+				"strength"
+			]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "GrumblesHB",
+				"abbreviation": "GHB",
+				"full": "Grumbles Homebrew",
+				"authors": [
+					"Phil"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/drnumbers/grumbles.",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 20260304
+	},
+	"monster": [],
+	"spell": [],
+	"item": []
+}

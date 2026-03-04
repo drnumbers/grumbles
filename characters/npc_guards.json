@@ -1,0 +1,98 @@
+{
+	"monster": [
+		{
+			"name": "Bert",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"Leather Armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 9
+			},
+			"str": 13,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"perception": "+2"
+			},
+			"passive": 12,
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Billy Club",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 1.5 m, one target. {@h}3 (1d4 + 1) bludgeoning damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ernie",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"Leather Armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 9
+			},
+			"str": 13,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"perception": "+2"
+			},
+			"passive": 12,
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Billy Club",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 1.5 m, one target. {@h}3 (1d4 + 1) bludgeoning damage."
+					]
+				}
+			]
+		}
+	]
+}

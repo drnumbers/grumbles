@@ -1,0 +1,269 @@
+{
+	"monster": [
+		{
+			"name": "Grumbles",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"Scale Mail",
+						"Shield"
+					]
+				}
+			],
+			"hp": {
+				"average": 21,
+				"formula": "2d8+6"
+			},
+			"speed": {
+				"walk": 10
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 14,
+			"int": 16,
+			"wis": 10,
+			"cha": 8,
+			"save": {
+				"con": "+4",
+				"int": "+5"
+			},
+			"skill": {
+				"investigation": "+7",
+				"arcana": "+3",
+				"history": "+3",
+				"nature": "+3",
+				"religion": "+3",
+				"thieves' tools": "+4"
+			},
+			"passive": 12,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Trio in a Trench Coat",
+					"entries": [
+						"Grumbles is technically three kobolds operating as one unit."
+					]
+				},
+				{
+					"name": "Magical Tinkering",
+					"entries": [
+						"Can invest a spark of magic into tiny nonmagical objects to create light, sounds, or smells."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Podger Spanner",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 1.5 m, one target. {@h}6 (1d6 + 2) bludgeoning damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gojo",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"Draconic Resilience"
+					]
+				}
+			],
+			"hp": {
+				"average": 14,
+				"formula": "2d6+4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 12,
+			"wis": 10,
+			"cha": 16,
+			"save": {
+				"con": "+4",
+				"cha": "+5"
+			},
+			"skill": {
+				"arcana": "+3",
+				"intimidation": "+5",
+				"persuasion": "+5",
+				"acrobatics": "+4"
+			},
+			"passive": 12,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Bronze Ancestry",
+					"entries": [
+						"Resistance to lightning damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Breath Weapon",
+					"entries": [
+						"Exhale lightning in a 15-ft cone or 30-ft line. DC 12 Dex save for half of 1d10 damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Floss",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"Natural Armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 15,
+				"formula": "2d8+2"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 10
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 12,
+			"int": 10,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"dex": "+5",
+				"int": "+2"
+			},
+			"skill": {
+				"stealth": "+7",
+				"acrobatics": "+7",
+				"sleight of hand": "+5",
+				"deception": "+4"
+			},
+			"passive": 11,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Flight",
+					"entries": [
+						"Can fly for 10 minutes per level per long rest in 1-minute increments."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"Deals an extra 1d6 damage once per turn on a hit with a finesse or ranged weapon."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Talon Strike",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 1.5 m, one target. {@h}5 (1d4 + 3) slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nisha",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"Leather"
+					]
+				}
+			],
+			"hp": {
+				"average": 21,
+				"formula": "2d8+8"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 16,
+			"cha": 12,
+			"save": {
+				"wis": "+5",
+				"int": "+2"
+			},
+			"skill": {
+				"animal handling": "+5",
+				"insight": "+5",
+				"perception": "+5",
+				"performance": "+3",
+				"persuasion": "+3"
+			},
+			"passive": 15,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Advantage on saving throws against spells and magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shillelagh (Quarterstaff)",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 1.5 m, one target. {@h}7 (1d8 + 3) force damage."
+					]
+				}
+			]
+		}
+	]
+}
