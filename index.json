@@ -8,21 +8,193 @@
 				"authors": [
 					"Phil"
 				],
-				"version": "1.0.0",
-				"includes": {
-					"monster": [
-						"characters/party_stats.json",
-						"characters/companions.json",
-						"characters/npc_guards.json"
-					],
-					"spell": [
-						"spells/custom_spells.json"
-					],
-					"item": [
-						"items/podger_spanner.json"
-					]
-				}
+				"version": "1.0.0"
 			}
-		]
-	}
+		],
+		"dateAdded": 1740672000
+	},
+	"monster": [
+		{
+			"name": "Grumbles",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": ["M"],
+			"type": "humanoid",
+			"alignment": ["L","G"],
+			"ac": [{"ac": 19, "from": ["Scale Mail", "Shield"]}],
+			"hp": {"average": 21, "formula": "2d8+6"},
+			"speed": {"walk": 10},
+			"str": 12, "dex": 14, "con": 14, "int": 16, "wis": 10, "cha": 8,
+			"save": {"con": "+4", "int": "+5"},
+			"skill": {"investigation": "+7", "arcana": "+3", "history": "+3", "nature": "+3", "religion": "+3", "thieves' tools": "+4"},
+			"passive": 12, "cr": "2",
+			"trait": [
+				{"name": "Trio in a Trench Coat", "entries": ["Grumbles is technically three kobolds operating as one unit."]},
+				{"name": "Magical Tinkering", "entries": ["Can invest a spark of magic into tiny nonmagical objects to create light, sounds, or smells."]}
+			],
+			"action": [{"name": "Podger Spanner", "entries": ["{@atk mw} {@hit 4} to hit, reach 1.5 m, one target. {@h}6 (1d6 + 2) bludgeoning damage."]}]
+		},
+		{
+			"name": "Gojo",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": ["M"],
+			"type": "humanoid",
+			"alignment": ["N","G"],
+			"ac": [{"ac": 15, "from": ["Draconic Resilience"]}],
+			"hp": {"average": 14, "formula": "2d6+4"},
+			"speed": {"walk": 30},
+			"str": 10, "dex": 14, "con": 14, "int": 12, "wis": 10, "cha": 16,
+			"save": {"con": "+4", "cha": "+5"},
+			"skill": {"arcana": "+3", "search": "+3", "persuasion": "+5", "acrobatics": "+4"},
+			"passive": 12, "cr": "2",
+			"action": [{"name": "Breath Weapon", "entries": ["Exhale lightning in a 15-ft cone or 30-ft line. DC 12 Dex save for half of 1d10 damage."]}]
+		},
+		{
+			"name": "Floss",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": ["M"],
+			"type": "humanoid",
+			"alignment": ["C","G"],
+			"ac": [{"ac": 14, "from": ["Natural Armor"]}],
+			"hp": {"average": 15, "formula": "2d8+2"},
+			"speed": {"walk": 30, "fly": 10},
+			"str": 10, "dex": 16, "con": 12, "int": 10, "wis": 12, "cha": 14,
+			"save": {"dex": "+5", "int": "+2"},
+			"skill": {"stealth": "+7", "acrobatics": "+7", "sleight of hand": "+5", "deception": "+4"},
+			"passive": 11, "cr": "2",
+			"action": [{"name": "Talon Strike", "entries": ["{@atk mw} {@hit 5} to hit, reach 1.5 m, one target. {@h}5 (1d4 + 3) slashing damage."]}]
+		},
+		{
+			"name": "Nisha",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": ["M"],
+			"type": "fey",
+			"alignment": ["C","G"],
+			"ac": [{"ac": 13, "from": ["Leather"]}],
+			"hp": {"average": 21, "formula": "2d8+8"},
+			"speed": {"walk": 35},
+			"str": 12, "dex": 14, "con": 14, "int": 10, "wis": 16, "cha": 12,
+			"save": {"wis": "+5", "int": "+2"},
+			"skill": {"animal handling": "+5", "insight": "+5", "perception": "+5", "performance": "+3", "persuasion": "+3"},
+			"passive": 15, "cr": "2",
+			"action": [{"name": "Shillelagh (Quarterstaff)", "entries": ["{@atk mw} {@hit 5} to hit, reach 1.5 m, one target. {@h}7 (1d8 + 3) force damage."]}]
+		},
+		{
+			"name": "Bert",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": ["M"],
+			"type": "humanoid",
+			"alignment": ["L","N"],
+			"ac": [{"ac": 12, "from": ["Leather Armor"]}],
+			"hp": {"average": 11, "formula": "2d8 + 2"},
+			"speed": {"walk": 9},
+			"str": 13, "dex": 12, "con": 12, "int": 10, "wis": 11, "cha": 10,
+			"passive": 12, "cr": "1/8",
+			"action": [{"name": "Billy Club", "entries": ["{@atk mw} {@hit 3} to hit, reach 1.5 m, one target. {@h}3 (1d4 + 1) bludgeoning damage."]}]
+		},
+		{
+			"name": "Ernie",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": ["M"],
+			"type": "humanoid",
+			"alignment": ["L","N"],
+			"ac": [{"ac": 12, "from": ["Leather Armor"]}],
+			"hp": {"average": 11, "formula": "2d8 + 2"},
+			"speed": {"walk": 9},
+			"str": 13, "dex": 12, "con": 12, "int": 10, "wis": 11, "cha": 10,
+			"passive": 12, "cr": "1/8",
+			"action": [{"name": "Billy Club", "entries": ["{@atk mw} {@hit 3} to hit, reach 1.5 m, one target. {@h}3 (1d4 + 1) bludgeoning damage."]}]
+		},
+		{
+			"name": "Bumbles",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": ["T"],
+			"type": "construct",
+			"ac": [13],
+			"hp": {"average": 12, "formula": "1d4 + 10"},
+			"speed": {"fly": 9},
+			"str": 4, "dex": 15, "con": 12, "int": 10, "wis": 10, "cha": 7,
+			"passive": 10, "cr": "0",
+			"action": [{"name": "Force Strike", "entries": ["{@atk rw} {@hit 5} to hit, range 9 m, one target. {@h}4 (1d4 + 2) force damage."]}],
+			"reaction": [{"name": "Channel Magic", "entries": ["Grumbles casts 'Touch' spell, Bumbles delivers it within 36 m."]}]
+		},
+		{
+			"name": "Ivy",
+			"isNamedCreature": true,
+			"source": "GrumblesHB",
+			"size": ["T"],
+			"type": "beast",
+			"ac": [16],
+			"hp": {"average": 5, "formula": "1d4 + 3"},
+			"speed": {"fly": 12},
+			"str": 2, "dex": 18, "con": 10, "int": 4, "wis": 12, "cha": 6,
+			"passive": 11, "cr": "0",
+			"action": [
+				{"name": "Nature's Stinger", "entries": ["{@atk mw} {@hit 5} to hit, reach 1.5 m, one target. {@h}5 (1d6 + 2) piercing damage."]},
+				{"name": "Distract", "entries": ["Nisha's Bonus Action: next attack vs creature has Advantage."]}
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Blue Punch",
+			"source": "GrumblesHB",
+			"level": 0, "school": "V", "time": [{"number": 1, "unit": "action"}],
+			"range": {"type": "point", "distance": {"type": "touch"}},
+			"components": {"v": true, "s": true},
+			"duration": [{"type": "instantaneous"}],
+			"entries": ["Melee spell attack. Advantage if target wears metal armor. Hit: 1d8 lightning and no reactions."]
+		},
+		{
+			"name": "Cursed Lapse",
+			"source": "GrumblesHB",
+			"level": 1, "school": "V", "time": [{"number": 1, "unit": "action"}],
+			"range": {"type": "point", "distance": {"type": "meter", "amount": 20}},
+			"components": {"v": true, "s": true},
+			"duration": [{"type": "instantaneous"}],
+			"entries": ["Ranged spell attack. Hit: 1d10 force. Target pulled 3m toward impact. Scaling: +1d10 per level."]
+		},
+		{
+			"name": "Noxious Burp",
+			"source": "GrumblesHB",
+			"level": 0, "school": "V", "time": [{"number": 1, "unit": "action"}],
+			"range": {"type": "radius", "distance": {"type": "meter", "amount": 2}},
+			"components": {"s": true},
+			"duration": [{"type": "instantaneous"}],
+			"entries": ["2m radius cloud. DC 13 Con save or 1d4 poison damage."]
+		},
+		{
+			"name": "Healing Globs",
+			"source": "GrumblesHB",
+			"level": 0, "school": "A", "time": [{"number": 1, "unit": "action"}],
+			"range": {"type": "point", "distance": {"type": "meter", "amount": 10}},
+			"components": {"s": true, "m": true},
+			"duration": [{"type": "instantaneous"}],
+			"entries": ["Heals 1d8. Stabilizes at 0 HP."]
+		},
+		{
+			"name": "Grow Plants",
+			"source": "GrumblesHB",
+			"level": 1, "school": "T", "time": [{"number": 1, "unit": "action"}],
+			"range": {"type": "point", "distance": {"type": "meter", "amount": 20}},
+			"components": {"v": true, "s": true},
+			"duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}, "concentration": true}],
+			"entries": ["3m square. DC 13 Str save or restrained. Can bloom flowers or grow 3m vine."]
+		}
+	],
+	"item": [
+		{
+			"name": "Podger Spanner",
+			"source": "GrumblesHB",
+			"type": "M", "rarity": "unknown", "weaponCategory": "simple", "property": ["AF", "L"],
+			"dmg1": "1d6", "dmgType": "B", "weight": 2,
+			"entries": ["Indestructible tool-steel focus. Alien Artifact. +4 hit, 1d6+2 dmg."]
+		}
+	]
 }
