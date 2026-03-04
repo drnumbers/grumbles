@@ -9,13 +9,20 @@
 					"Phil"
 				],
 				"version": "1.0.0",
-				"url": "https://github.com/drnumbers/grumbles.",
-				"targetSchema": "1.0.0"
+				"includes": {
+					"monster": [
+						"characters/party_stats.json",
+						"characters/companions.json",
+						"characters/npc_guards.json"
+					],
+					"spell": [
+						"spells/custom_spells.json"
+					],
+					"item": [
+						"items/podger_spanner.json"
+					]
+				}
 			}
-		],
-		"dateAdded": 20260304
-	},
-	"characters": [],
-	"spells": [],
-	"items": []
+		]
+	}
 }
